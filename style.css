@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    max-width: 1020px;
+    font-family: Lato, sans-serif;
+    margin: 0 auto;
+}
+a:hover {
+    color: lightseagreen;
+}
+
+header {
+    background-color: #2D303A;
+    display: flex;
+    min-height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Lato";
+    font-weight: 700;
+    border-bottom: 6px #323746 solid;
+}
+
+nav {
+    margin-right: 44px;
+    margin-top: 7px;
+    width: 36%;
+}
+nav > ul {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-item {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.nav-item:after {
+    content: "";
+    background-color: #494e62;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -13px;
+    transform: translateY(-50%);
+}
+.colored-item {
+    color: #F06C64 !important;
+}
+.colored-item:hover {
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    font-size: 25px;
+    margin-left: 40px;
+    letter-spacing: -0.02em;
+}
+.header-text {
+    color: white;
+}
+.header-star {
+    color: #F06C64;
+}
+main {
+    height: 594px;
+    background-color: #f06c64;
+    border-bottom: 6px #ea676b solid;
+    position: relative;
+}
+.arr-left {
+    position: absolute;
+    width: ;
+    height: ;
+    left: 40px;
+    top: 281px;
+}
+.phone-vertical {
+    position: absolute;
+    width: 240px;
+    height: 483px;
+    left: 112px;
+    top: 52px;
+}
+.phone-horizontal {
+    position: absolute;
+    width: 484px;
+    height: 240px;
+    right: 111px;
+    top: 173px;
+}
+.arr-right {
+    position: absolute;
+    width: ;
+    height: ;
+    right: 40px;
+    top: 281px;
+}
+.arr-left:hover,
+.arr-right:hover {
+    opacity: 0.3;
+}
+
+.foot {
+    height: 497px;
+    background-color: #F2F2F2;
+    border-bottom: 7px #FFFFFF solid;
+}
+.foot-text {
+    margin-left: 40px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    padding-top: 68px;
+    
+}
+.foot-description {
+    margin-left: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    margin-top: 28px;
+    margin-right: 40px;
+    letter-spacing: -0.013rem;
+    text-align: justify;
+
+}
+.wrapper {
+    margin-left: 40px;
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 42px;
+}
+.wrapper-item {
+    width: 300px;
+    position: relative;
+    height: 87px;
+    overflow: hidden;
+    left: 1px;
+}
+.wrapper-item:nth-child(-n + 3) {
+    margin-bottom: 36px;
+}
+.wrapper-pic {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+
+}
+.wrapper-text {
+    position: absolute;
+    width: 220px;
+    font-weight: 900;
+    font-size: 18px;
+    color: #666d89;
+    top: -2px;
+}
+.wrapper-description {
+    position: absolute;
+    font-size: 12px;
+    line-height: 21px;
+    font-family: Lato, sans-serif;
+    text-align: justify;
+    color: #666d89;
+    padding-top: 8px;
+}
+.desc-pen,
+.desc-bubble,
+.text-bubble,
+.text-pen {
+    left: 80px;
+}
+.desc-phone,
+.desc-lightbulb,
+.text-lightbulb,
+.text-phone {
+    left: 81px;
+}
+.desc-star,
+.desc-heart,
+.text-heart,
+.text-star {
+    left: 83px;
+}
+/* singolo2-------------------------*/
+
+.portfolio {
+    height: 864px;
+    padding-left: 41px;
+    background-color: #2D303A;
+    color: #767E9E;
+    border-bottom: 6px solid #323746;
+}
+
+.portfolio-text {
+    font-family: "Lato",serif;
+    padding-top: 59px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #666D89;
+    letter-spacing: -0.2px;
+}
+
+.description-text {
+    padding-top: 22px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.portfolio-navigation {
+    padding-top: 16px;
+    display: flex;
+}
+
+.portfolio-navigation-item {
+    font-family: "Lato",serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    border: 1px solid #666D89;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #767E9E;
+}
+.portfolio-navigation-item:hover {
+    background-color: white;
+    cursor: pointer;
+}
+.web-item {
+    width: 76px;
+}
+.graph-item {
+    width: 91px;
+}
+.artwork-item {
+    width: 55px;
+}
+.colored-nav-item {
+    width: 27px;
+    text-align: center;
+    border: 1px solid #C5C5C5;
+    color: white;
+}
+
+.portfolio-wrapper {
+    margin-top: 20px;
+    padding-right: 40px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.portfolio-picture {
+    margin-bottom: 17px;
+}
+
+/*portfolio end*/
+/*about us*/
+
+.about {
+    background-color: #F2F2F2;
+    padding-top: 69px;
+    padding-left: 39px;
+    height: 659px;
+    border-bottom: 6px solid #FFFFFF;
+}
+.about-text {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+}
+.about-description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    padding-top: 18px;
+    margin-top: 8px;
+    padding-right: 40px;
+    text-align: justify;
+}
+.contacts {
+    display:flex;
+    padding-top: 45px;
+    padding-right: 23px;
+    justify-content: space-between;
+}
+.cell {
+    width: 33.3%;
+}
+.cell-name {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    padding-top: 14px;
+    white-space: nowrap;
+}
+.name-disc {
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    padding-top: 9px;
+    line-height: 21.5px;
+    word-spacing: -0.6px;
+    text-align: justify;
+
+}
+.social {
+    display: flex;
+    margin-left: 2px;
+}
+.soc-icon {
+    padding-top: 23px;
+    margin-right: 8px;
+}
+
+.soc-icon:hover {
+    cursor: pointer;
+}
+/* singolo3-------------------------*/
+.quote {
+    padding-top: 59px;
+    padding-left: 40px;
+    padding-right: 41px;
+    padding-bottom: 15px;
+    background-color: #f06c64;
+    border-bottom:  6px solid #ea676b;
+}
+
+.quote-text {
+    margin-bottom: 18px;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #f0d8d9;
+}
+.quote-description {
+    margin-bottom: 42px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #f0d8d9;
+    text-align: justify;
+}
+.quote-wrapper {
+    display: flex;
+}
+
+.form {
+    width: 640px;
+    padding-right: 50px;
+}
+.input {
+    padding: 12px 15px;
+    margin-bottom: 16px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #d6564f;
+
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    outline: none;
+}
+.input:focus {
+    background-color:  rgb(204, 49, 49);
+    border: 1px solid rgb(247, 0, 0);
+}
+.input::placeholder {
+    color: #f48c8f;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.textarea {
+    height: 202px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.contact-text {
+    margin: 13px 0 6px 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #f0d8d9;
+}
+.contact-descr {
+    font-weight: 400;
+    color: #f0d8d9;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 10px 0 12px 10px;
+    text-align: justify;
+    word-break: break-word;
+}
+.contact-content {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-text-location {
+    margin-left: 10px;
+}
+.contact-text-phone {
+    margin-left: 10px;
+}
+.contact-text-mail {
+    margin-left: 10px;
+}
+.contact-content a {
+    text-decoration: none;
+    color: #f0d8d9;
+}
+footer {
+    height: 77px;
+    background-color: #2d303a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-copyright {
+    color: #666d89;
+    padding-top: 31px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.footer-social {
+    margin-right: 50px;
+    margin-top: -1px;
+}
+.footer-social-item {
+    display: flex;
+    flex-direction: row;
+    margin: 23px 5px 67px 0;
+}
+.footer-social-button {
+    width: 32px;
+    height: 32px;
+    margin-right: 7px;
+}
