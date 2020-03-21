@@ -6,17 +6,19 @@
     <title>Singolo</title>
     <link rel="stylesheet" href="./assets/fonts/fonts.css">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
+    <container id="home">
     <header>
         <h1 class="logo"><div class="header-text">SINGOLO</div><div class="header-star">*</div></h1></div></h1>
         <nav>
-            <ul>
-                <li><a href="#" class="nav-item colored-item">Home</a></li>
-                <li><a href="#" class="nav-item">Services</a></li>
-                <li><a href="#" class="nav-item">Portfolio</a></li>
-                <li><a href="#" class="nav-item">About</a></li>
-                <li><a href="#" class="nav-item">Contact</a></li>
+            <ul id="menu">
+                <li><a href="#home" class="nav-item colored-item">Home</a></li>
+                <li><a href="#services" class="nav-item">Services</a></li>
+                <li><a href="#portfolio" class="nav-item">Portfolio</a></li>
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#contacts" class="nav-item">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -26,7 +28,10 @@
     <img class="phone-horizontal" src="assets/phone_horizontal.png" alt="">
     <img class="arr-right" src="assets/arrow_right.png" alt="">
     </main>
-    <div class="foot">
+</container>
+<!-- end home -->
+<container id="services">
+    <div class="foot"> 
     <div class="foot-text">Our Services</div>
     <div class="foot-description">Fusce dapibus, tellus ac cursus commodo,
         tortor mauris condimentum. Duis mollis, non commodo luctus,
@@ -66,6 +71,9 @@
                 </div>
         </div>
     </div>
+</container>
+<!-- end services -->
+<container id="portfolio">
 <div class="portfolio">
     <div class="portfolio-text">Portfolio</div>
     <div class="description-text">Duis mollis, est non commodo luctus,
@@ -91,13 +99,18 @@
     <div class="portfolio-picture"><img src="assets/row3/4.jpg" alt=""></div>
     </div>
 </div>
+</container>
+<!-- end portfolio -->
 <div class="about">
+    <container id="about">
     <div class="about-text">About Us</div>
     <div class="about-description">Fusce dapibus, tellus ac cursus commodo,
         tortor mauris condimentum. Duis mollis, non commodo luctus,
         nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
         Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
     </div>
+    </container>
+    <container id="contacts">        
     <div class="contacts">
             <div class="cell">
                 <div class="cell-photo"><img src="assets/photo1.png" alt=""></div>
@@ -111,6 +124,7 @@
                     <div class="soc-icon linked"><img src="assets/LinkedIn.png" alt=""></div>
                 </div>
             </div>
+
             <div class="cell">
                 <div class="cell-photo"><img src="assets/photo2.png" alt=""></div>
                 <div class="cell-name">Desmond Miles</div>
@@ -136,8 +150,8 @@
                 </div>
             </div>
     </div>
+</container>
 </div>
-
 <div class="quote">
     <div class="quote-text">Get a Quote</div>
     <div class="quote-description">Fusce dapibus, tellus ac cursus commodo,

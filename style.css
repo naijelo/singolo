@@ -6,6 +6,7 @@ html {
     max-width: 1020px;
     font-family: Lato, sans-serif;
     margin: 0 auto;
+    scroll-behavior: smooth;
 }
 a:hover {
     color: lightseagreen;
@@ -20,6 +21,9 @@ header {
     font-family: "Lato";
     font-weight: 700;
     border-bottom: 6px #323746 solid;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 nav {
